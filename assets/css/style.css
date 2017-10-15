@@ -1,0 +1,241 @@
+/* !Note for Assignment! I was unable to make automatic gab between main content section and sidebar. */
+/* !Note for Assignment! I was unable to find how to make this website alive on internet. */
+/* Q's: In Google Chrome, how can we see the layout change when it is viewed in different mobile devices? */
+
+* {
+	box-sizing: border-box;
+}
+
+
+body{
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	font-size: 18px;
+	color: #777;
+	line-height: 34px;
+	background-color: #cccccc;
+}
+
+.container {
+	width: 100%;
+	max-width: 960px;
+	margin: 0 auto;
+	clear: both;
+}
+
+h1, h2, h3 {
+	font-family: 'Georgia', Times, Times New Roman, serif;
+ 	margin-bottom: 20px;
+ 	font-weight: 700;
+ 	color: #4aaaa5
+}
+
+h1 {
+	font-size: 30px;
+	line-height: 49px;
+	border-bottom: 3px solid #ddd;
+}
+
+h2, h3 {
+	font-size: 22px;
+}
+
+/* Navigation Bar */
+/* Header or Logo */
+
+#master__header {
+	position: static;
+	z-index: 999;
+	width: 100%;
+	margin: 0 0 30px;
+	overflow: auto;
+	color: #ddd;
+	background-color: #ffffff;
+	border-bottom: 3px solid #a5a5a5;
+}
+
+#logo {
+	float: left;
+  	width: 250px;
+  	height: 90px;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	font-size: 30px;
+	line-height: 90px;
+	text-align: center;
+	font-weight: 700;	
+	color: #ffffff;
+	background-color: #4aaaa5;
+	text-decoration: none;
+}
+
+/* Navigation Menu Bar */
+
+nav {
+	float: right;
+	margin-top: 25px;
+}
+
+nav a {
+	display: inline-block;
+	padding: 0px 15px 0px 15px;
+	line-height: 18px;
+	margin-left: 15px;
+	color: #a5a5a5;
+	text-decoration: none;
+}
+
+/* Section for Footer */
+
+footer {
+	clear: both;
+	padding: 20px;
+	font-size: 12px;
+	color: #a5a5a5;
+	text-align: center;
+	background: #666;
+  	border-top: 5px solid #4aaaa5;
+}
+
+/* Section for Panel or sidebar */
+
+.aside {
+	background-color: #fff;
+	float: left;
+	width: 100%;
+	max-width: 270px;
+	padding: 30px;
+	margin: 10px 0 20px 0
+  	border: 1px solid #ddd;
+}
+
+h2 {
+	padding-bottom: 15px;
+	border-bottom: 3px solid #ddd;
+}
+
+.aside__social__links img {
+	width: 60px;
+	height: 60px;
+	margin-right: 2px;
+}
+
+.social__github {
+	margin-left: 8px;
+}
+
+/* Page for Main Bio */
+
+.main-bio__container {
+	float: left;
+	overflow: auto;
+	width: 100%;
+	max-width: 650px;
+	padding: 30px;
+	margin-bottom: 40px;
+	background-color: #fff;
+	border: 1px solid #ddd;
+}
+
+.content__profile__image {
+	float: left;
+	width: 200px;
+	height: auto;
+	margin: 0 20px 5px 0;
+}
+
+p {
+	line-height: 25px;
+}
+
+/* Page for Portfolio Work */
+
+.work__container {
+	float: left;
+	overflow: auto;
+	width: 100%;
+	max-width: 650px;
+	padding: 30px;
+	margin-bottom: 40px;
+	background-color: #fff;
+	border: 1px solid #ddd;
+}
+
+.work {
+  position: relative;
+  float: left;
+  width: 274px;
+  margin: 20px 0 25px;
+  overflow: auto;
+}
+
+.work img {
+  width: 100%;
+  max-width: 260px;
+  height: 150px;
+  border: 0 none;
+  opacity: 0.8;
+}
+
+.work h3 {
+	position: absolute;
+  	bottom: 20px;
+ 	width: 100%;
+ 	max-width: 260px;
+  	padding: 5px;
+  	color: #fff;
+  	background-color: #4aaaa5;
+  	text-align: center;
+}
+
+/* Page for Contact */
+.contact__container {
+	float: left;
+	width: 100%;
+	max-width: 650px;
+	padding: 30px;
+	margin-bottom: 40px;
+	background-color: #fff;
+	border: 1px solid #ddd;
+}
+
+#contact-form ul {
+  margin-bottom: 20px;
+}
+
+#contact-form li {
+  margin-bottom: 10px;
+}
+
+label,
+input[type=text],
+input[type=email],
+textarea {
+  display: block;
+  width: 100%;
+}
+
+input[type=text],
+input[type=email],
+textarea {
+  height: 35px;
+  padding: 0 10px;
+  font-size: 14px;
+  border: 1px solid #ddd;
+}
+
+textarea {
+  height: 200px;
+}
+
+input[type=submit] {
+  padding: 10px 20px;
+  font-size: 18px;
+  color: #fff;
+  cursor: pointer;
+  background: #4aaaa5;
+  border: 0 none;
+}
+
+/* Mobile Responsive Web */
+@media screen and (max-width: 640px) {
+
+}
